@@ -8,6 +8,10 @@
   color: black;
 }
 
+html{
+	overflow: hidden;
+}
+
 
 body {
   background-color: #ffffff;
