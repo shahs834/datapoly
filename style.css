@@ -23,10 +23,10 @@ body {
   margin: 0 auto;
   border: 2px solid #ff0000;
   background-color: #000000;
-  padding-top: 15%;
-  padding-bottom: 15%;
-  padding-left: 5%;
-  padding-right:5%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+  padding-left: 40%;
+  padding-right:40%;
 }
 
 .innerbox {
