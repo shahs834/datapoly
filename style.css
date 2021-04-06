@@ -31,12 +31,33 @@ body {
   height: 100%;
   border: 5px solid #ffffff;
   text-align: center;
-  padding-top: 15%;
+  padding-top: 4%;
   padding-bottom: 15%;
   padding-left: 15%;
   padding-right:15%;
-
 }
+
+
+p {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #ffffff; 
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'KabelBold';
+  src: url(KabelBold.ttf);
+}
+
+@font-face {
+  font-family: 'KabelRegular';
+  src: url(KabelRegular.ttf);
+}
+
+
+
 
 .project2text {
   width: 100%;
