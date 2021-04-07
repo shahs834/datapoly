@@ -220,6 +220,7 @@ p {
   padding-bottom: 16%;
 }
 
+
 .pbold {
   font-family: 'KabelBold', 'helvetica', 'sans-serif';
   color: #ffffff; 
@@ -255,6 +256,14 @@ h5 {
   font-size: 50px;
  /* letter-spacing: 2px;*/
   color: #108D45; 
+  text-align: center;
+}
+
+h6{
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 50px;
+   /*letter-spacing: 2px;*/
+  color: #ffffff; 
   text-align: center;
 }
 
