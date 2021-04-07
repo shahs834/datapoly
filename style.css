@@ -211,6 +211,12 @@ p {
   padding-bottom: 16%;
 }
 
+.pbold {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  color: #ffffff; 
+  font-size: 50px;
+}
+
 h2 {
   font-family: 'KabelRegular', 'helvetica', 'sans-serif';
   font-size: 50px;
@@ -224,6 +230,14 @@ h3 {
   font-size: 50px;
  /* letter-spacing: 2px;*/
   color: #D23A3B; 
+  text-align: center;
+}
+
+h4 {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 50px;
+  /*letter-spacing: 2px;*/
+  color: #108D45; 
   text-align: center;
 }
 
