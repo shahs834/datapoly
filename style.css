@@ -1,281 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  color: black;
-}
-
-
-
 body {
-  background-color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  box-sizing: border-box;
+  margin: 0;
 }
-
-.mainpage {
-  width: 750px;
-  height: 1334px;
-  margin: 0 auto;
-  border: none;
-  background-color: #000000;
-  padding-top: 18.5%;
-  padding-bottom: 18.5%;
-  padding-left: 18.5%;
-  padding-right:18.5%;
-}
-
-.chance1 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance2 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance3 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance4 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance5 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance6 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance7 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance8 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance9 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance10 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance11 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance12 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance13 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance14 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-.chance15 {
-  width: 100%;
-  height: 100%;
-  border: 5px solid #ffffff;
-  text-align: center;
-  padding-top: 4%;
-  padding-bottom: 0;
-  padding-left: 4%;
-  padding-right:4%;
-}
-
-
 
 h1 {
-  font-family: 'KabelBold', 'helvetica', 'sans-serif';
-  font-size: 50px;
-  /*letter-spacing: 2px;*/
-  color: #ffffff; 
   text-align: center;
-  padding-bottom: 46%;
-}
-
-.h1lesspadding{
-  font-family: 'KabelBold', 'helvetica', 'sans-serif';
-  font-size: 50px;
-  /*letter-spacing: 2px;*/
-  color: #ffffff; 
-  text-align: center;
-  padding-bottom: 30%;
 }
 
 p {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
-  font-size: 50px;
-   /*letter-spacing: 2px;*/
-  color: #ffffff; 
-  text-align: center;
-  padding-bottom: 16%;
+  margin: 1rem 0;
 }
 
-
-.pbold {
-  font-family: 'KabelBold', 'helvetica', 'sans-serif';
-  color: #ffffff; 
-  font-size: 50px;
+.container {
+  height: calc(100vh - 32px);
+  margin: 16px;
+  border: 4px solid;
+  overflow: hidden;
 }
 
-h2 {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
-  font-size: 50px;
-  /*letter-spacing: 2px;*/
-  color: #D23A3B; 
-  text-align: center;
+.card {
+  height: calc(100vh - 32px);
+  padding: 64px;
 }
 
-h3 {
-  font-family: 'KabelBold', 'helvetica', 'sans-serif';
-  font-size: 50px;
- /* letter-spacing: 2px;*/
-  color: #D23A3B; 
-  text-align: center;
+/* do not delete this */
+.slotMachineNoTransition {
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
-
-h4 {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
-  font-size: 50px;
-  /*letter-spacing: 2px;*/
-  color: #108D45; 
-  text-align: center;
-}
-
-h5 {
-  font-family: 'KabelBold', 'helvetica', 'sans-serif';
-  font-size: 50px;
- /* letter-spacing: 2px;*/
-  color: #108D45; 
-  text-align: center;
-}
-
-h6{
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
-  font-size: 50px;
-   /*letter-spacing: 2px;*/
-  color: #ffffff; 
-  text-align: center;
-}
-
-
-@font-face {
-  font-family: 'KabelBold';
-  src: url(KabelBold.ttf);
-}
-
-@font-face {
-  font-family: 'KabelRegular';
-  src: url(KabelRegular.ttf);
-}
-
-
