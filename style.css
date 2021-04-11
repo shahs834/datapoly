@@ -17,9 +17,61 @@ h1 {
 }
 
 p {
-  /*margin: 1rem 0;*/
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
   color: #ffffff; 
+  text-align: center;
 }
+
+.pbold {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  color: #ffffff; 
+  font-size: 20px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #D23A3B; 
+  text-align: center;
+}
+
+h3 {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  color: #D23A3B; 
+  margin: 1rem 0;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #108D45; 
+  text-align: center;
+}
+
+h5 {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #108D45; 
+  text-align: center;
+}
+
+h6{
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 50px;
+  margin: 1rem 0;
+  color: #ffffff; 
+  text-align: center;
+}
+
 
 .container {
   height: calc(100vh - 32px);
