@@ -15,6 +15,14 @@ h1 {
   padding-bottom: 46%;
 }
 
+ h6 {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  font-size: 22px;
+  color: #ffffff; 
+  text-align: center;
+  padding-bottom: 46%;
+}
+
 p {
   font-family: 'KabelRegular', 'helvetica', 'sans-serif';
   font-size: 20px;
@@ -63,13 +71,7 @@ h5 {
   text-align: center;
 }
 
-h6{
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
-  font-size: 50px;
-  margin: 1rem 0;
-  color: #ffffff; 
-  text-align: center;
-}
+
 
 
 .container {
