@@ -15,6 +15,16 @@ h1 {
   padding-bottom: 46%;
 }
 
+
+h1 {
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
+  font-size: 35px;
+  color: #ffffff; 
+  text-align: center;
+  padding-bottom: 46%;
+}
+
+
 /**
 
  h6 {
@@ -42,6 +52,42 @@ p {
   text-align: center;
 }
 
+a:link {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #ffffff; 
+  text-align: center;
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #ffffff; 
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #ffffff; 
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-size: 20px;
+  margin: 1rem 0;
+  color: #ffffff; 
+  text-align: center;
+  text-decoration: none;
+}
+
 h2 {
   font-family: 'KabelRegular', 'helvetica', 'sans-serif';
   font-size: 20px;
@@ -49,6 +95,7 @@ h2 {
   color: #D23A3B; 
   text-align: center;
 }
+
 
 h3 {
   font-family: 'KabelBold', 'helvetica', 'sans-serif';
