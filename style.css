@@ -53,37 +53,37 @@ p {
 }
 
 a:link {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
   font-size: 20px;
   margin: 1rem 0;
-  color: #ffffff; 
+  color: #108D45; 
   text-align: center;
   text-decoration: none;
 }
 
 a:visited {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
   font-size: 20px;
   margin: 1rem 0;
-  color: #ffffff; 
+  color: #108D45; 
   text-align: center;
   text-decoration: none;
 }
 
 a:hover {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
   font-size: 20px;
   margin: 1rem 0;
-  color: #ffffff; 
+  color: #108D45; 
   text-align: center;
   text-decoration: none;
 }
 
 a:active {
-  font-family: 'KabelRegular', 'helvetica', 'sans-serif';
+  font-family: 'KabelBold', 'helvetica', 'sans-serif';
   font-size: 20px;
   margin: 1rem 0;
-  color: #ffffff; 
+  color: #108D45; 
   text-align: center;
   text-decoration: none;
 }
